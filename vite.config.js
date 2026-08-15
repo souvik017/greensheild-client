@@ -4,7 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
-  const apiTarget = env.VITE_API_URL || 'http://localhost:5000';
+  const apiTarget = env.VITE_API_URL || 'https://greensheild-server.onrender.com/api/';
 
   return {
     plugins: [react()],
