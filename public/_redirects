@@ -1,0 +1,5 @@
+# Netlify — SPA fallback.
+# Every client-side route (website + admin) is served index.html with a 200
+# so React Router handles /, /services/:slug, /about, /contact, /admin/*.
+# Hashed static assets and existing files are unaffected.
+/*    /index.html   200
