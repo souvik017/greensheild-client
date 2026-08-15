@@ -36,7 +36,7 @@ export const Contact = () => {
 
   const { data: servicesData } = useQuery({
     queryKey: ['services', 'contact-options'],
-    queryFn: getServices,
+    queryFn: () => getServices(),
   });
   const services = servicesData?.data || [];
 

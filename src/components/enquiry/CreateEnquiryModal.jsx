@@ -15,7 +15,7 @@ export const CreateEnquiryModal = ({ isOpen, onClose, onCreated }) => {
 
   const { data: servicesData } = useQuery({
     queryKey: ['services', 'admin-options'],
-    queryFn: getServices,
+    queryFn: () => getServices(),
     enabled: isOpen,
   });
 

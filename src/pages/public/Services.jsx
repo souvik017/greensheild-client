@@ -21,7 +21,7 @@ export const Services = () => {
 
   const { data, isLoading, isError, refetch } = useQuery({
     queryKey: ['services'],
-    queryFn: getServices,
+    queryFn: () => getServices(),
   });
 
   const services = data?.data || [];

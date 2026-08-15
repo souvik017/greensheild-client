@@ -33,7 +33,7 @@ export const ConfirmEnquiryModal = ({ isOpen, onClose, enquiry, onConfirmed, def
 
   const { data: servicesData } = useQuery({
     queryKey: ['services', 'confirm-options'],
-    queryFn: getAdminServices,
+    queryFn: () => getAdminServices(),
     enabled: isOpen,
   });
   const services = servicesData?.data || [];

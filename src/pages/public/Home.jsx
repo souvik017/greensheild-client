@@ -204,7 +204,7 @@ export const Home = () => {
 
   const servicesQuery = useQuery({
     queryKey: ['popularServices'],
-    queryFn: getServices,
+    queryFn: () => getServices(),
     staleTime: 5 * 60 * 1000,
   });
 

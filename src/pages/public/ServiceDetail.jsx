@@ -44,7 +44,7 @@ export const ServiceDetail = () => {
 
   const { data: catalog } = useQuery({
     queryKey: ['services', 'related'],
-    queryFn: getServices,
+    queryFn: () => getServices(),
   });
 
   if (isLoading) {

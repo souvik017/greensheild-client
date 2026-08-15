@@ -27,7 +27,7 @@ export const Dashboard = () => {
 
   const { data, isLoading, isError, refetch } = useQuery({
     queryKey: ['dashboardStats'],
-    queryFn: getDashboardStats,
+    queryFn: () => getDashboardStats(),
   });
 
   const istDateStr = useMemo(
