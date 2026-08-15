@@ -14,13 +14,14 @@ import {
 import { EnquiryForm } from '../../components/EnquiryForm/EnquiryForm';
 import { getServices } from '../../services/api/services';
 
-const CONTACT_NUMBER = '+91 99036 99074';
-const CONTACT_EMAIL = 'info@greenshieldhomesolutions.in';
+const CONTACT_NUMBER = '+91 76858 06236';
+const CONTACT_EMAIL = 'greenshieldhomesolutio@gmail.com';
 const GMAIL_COMPOSE_URL = `https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT_EMAIL}`;
-const MAP_EMBED_URL = 'https://maps.google.com/maps?q=Kolkata,India&z=13&output=embed';
-const MAP_LINK_URL = 'https://www.google.com/maps/search/?api=1&query=Kolkata,%20India';
-const MAP_DIRECTIONS_URL =
-  'https://www.google.com/maps/dir/?api=1&destination=Kolkata,%20India';
+const MAP_LAT = 22.992999;
+const MAP_LNG = 88.445392;
+const MAP_EMBED_URL = `https://maps.google.com/maps?q=${MAP_LAT},${MAP_LNG}&z=15&output=embed`;
+const MAP_LINK_URL = `https://www.google.com/maps/search/?api=1&query=${MAP_LAT},${MAP_LNG}`;
+const MAP_DIRECTIONS_URL = `https://www.google.com/maps/dir/?api=1&destination=${MAP_LAT},${MAP_LNG}`;
 
 const reveal = {
   hidden: { opacity: 0, y: 24 },

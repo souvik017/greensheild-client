@@ -205,20 +205,20 @@ export const PublicLayout = () => {
               <p className="eyebrow">{t('layout.contact')}</p>
               <div className="flex flex-col items-start gap-2.5">
                 <a
-                  href="tel:+919903699074"
+                  href="tel:+917685806236"
                   className="inline-flex items-center gap-2 text-text-secondary transition-colors hover:text-primary-700"
                 >
                   <Phone className="h-4 w-4 text-primary-700" />
-                  +91 99036 99074
+                  +91 76858 06236
                 </a>
                 <a
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=info%40greenshieldhomesolutions.in"
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=greenshieldhomesolutio%40gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 text-text-secondary transition-colors hover:text-primary-700"
                 >
                   <Mail className="h-4 w-4 text-primary-700" />
-                  info@greenshieldhomesolutions.in
+                  greenshieldhomesolutio@gmail.com
                 </a>
               </div>
             </div>
