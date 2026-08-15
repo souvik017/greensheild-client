@@ -198,6 +198,14 @@ export const PublicLayout = () => {
                 <Link to="/contact" className="text-text-secondary transition-colors hover:text-primary-700">
                   {t('nav.contact')}
                 </Link>
+                <a
+                  href="https://greenshieldhomesolutions.netlify.app/admin"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-text-secondary transition-colors hover:text-primary-700"
+                >
+                  {t('nav.adminPortal')}
+                </a>
               </div>
             </div>
 
