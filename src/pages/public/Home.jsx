@@ -26,6 +26,7 @@ import { SearchBar } from '../../components/SearchBar/SearchBar';
 import { ServiceCard } from '../../components/ServiceCard/ServiceCard';
 import { StatsStrip } from '../../components/StatsStrip/StatsStrip';
 import { getServices } from '../../services/api/services';
+import heroImage from '../../../assets/hero.png';
 
 const POPULAR_SLUGS = [
   'pest-control',
@@ -141,7 +142,7 @@ const HeroVisual = () => {
           className="relative overflow-hidden rounded-[32px] border border-border-60 bg-surface-70 shadow-2xl shadow-black/20 sm:rounded-[44px]"
         >
           <img
-            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1600&q=1000"
+            src={heroImage}
             alt="Home service professional"
             className="h-72 w-full object-cover sm:h-[440px] lg:h-[540px]"
           />
