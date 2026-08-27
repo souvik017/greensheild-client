@@ -226,7 +226,7 @@ export const PublicLayout = () => {
                   className="inline-flex items-center gap-2 text-text-secondary transition-colors hover:text-primary-700"
                 >
                   <Mail className="h-4 w-4 text-primary-700" />
-                  greenshieldhomesolutio@gmail.com
+                  greenshieldhomesolutions@gmail.com
                 </a>
               </div>
             </div>

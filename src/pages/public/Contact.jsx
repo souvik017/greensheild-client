@@ -15,7 +15,7 @@ import { EnquiryForm } from '../../components/EnquiryForm/EnquiryForm';
 import { getServices } from '../../services/api/services';
 
 const CONTACT_NUMBER = '+91 8282050022';
-const CONTACT_EMAIL = 'greenshieldhomesolutio@gmail.com';
+const CONTACT_EMAIL = 'greenshieldhomesolutions@gmail.com';
 const GMAIL_COMPOSE_URL = `https://mail.google.com/mail/?view=cm&fs=1&to=${CONTACT_EMAIL}`;
 const MAP_LAT = 22.992999;
 const MAP_LNG = 88.445392;

@@ -65,7 +65,7 @@ export const Services = () => {
         title={PAGE_META.services.title}
         description={PAGE_META.services.description}
         keywords={PAGE_META.services.keywords}
-        canonical="https://greenshieldhomesolutions.com/services"
+        canonical="https://greenshieldhomesolutions.in/services"
       />
       <FAQSchema
         faqs={[

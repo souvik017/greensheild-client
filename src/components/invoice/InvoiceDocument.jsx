@@ -494,7 +494,7 @@ export const InvoiceDocument = ({ invoice }) => {
                 <Text style={styles.infoBold}>GreenShield Home Solutions</Text>
                 <Text style={styles.infoLine}>Kolkata, West Bengal, India</Text>
                 <Text style={styles.infoLine}>+91 76858 06236</Text>
-                <Text style={styles.infoLine}>greenshieldhomesolutio@gmail.com</Text>
+                <Text style={styles.infoLine}>greenshieldhomesolutions@gmail.com</Text>
                 {/* Business GSTIN: only shown when the business has one configured.
                     Sourced from invoice.gstNumber (unchanged from before) — never hardcoded. */}
                 {invoice?.gstNumber && (
@@ -653,7 +653,7 @@ export const InvoiceDocument = ({ invoice }) => {
 
         <View style={styles.footer} fixed>
           <Text style={styles.footerText}>
-            www.greenshieldhomesolutions.in{'  |  '}greenshieldhomesolutio@gmail.com{'  |  '}+91 76858 06236
+            www.greenshieldhomesolutions.in{'  |  '}greenshieldhomesolutions@gmail.com{'  |  '}+91 76858 06236
           </Text>
         </View>
       </Page>

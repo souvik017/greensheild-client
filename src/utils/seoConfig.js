@@ -3,9 +3,9 @@
 
 export const SITE_URL = 'https://greenshieldhomesolutions.in';
 export const SITE_NAME = 'GreenShield Home Solutions';
-export const SITE_LOGO = 'https://greenshieldhomesolutions.com/logo.png';
+export const SITE_LOGO = 'https://greenshieldhomesolutions.in/logo.png';
 export const CONTACT_PHONE = '+91 8282050022';
-export const CONTACT_EMAIL = 'greenshieldhomesolutio@gmail.com';
+export const CONTACT_EMAIL = 'greenshieldhomesolutions@gmail.com';
 export const BUSINESS_ADDRESS = {
   streetAddress: 'Kolkata',
   addressLocality: 'Kolkata',
@@ -29,7 +29,7 @@ export const DEFAULT_DESCRIPTION =
 export const DEFAULT_KEYWORDS =
   'home services, home services near me, urban company, urban home services, pest control, AC repair, AC service, electrician, plumber, home cleaning, deep cleaning, salon at home, interior design, packers and movers, home maintenance, Kolkata home services, online home services';
 
-export const DEFAULT_OG_IMAGE = 'https://greenshieldhomesolutions.com/og-image.jpg';
+export const DEFAULT_OG_IMAGE = 'https://greenshieldhomesolutions.in/og-image.jpg';
 
 export const PAGE_META = {
   home: {
