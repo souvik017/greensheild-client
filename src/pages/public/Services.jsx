@@ -10,6 +10,9 @@ import { ComingSoonModal } from '../../components/ComingSoonModal/ComingSoonModa
 import { ServiceCardSkeleton } from '../../components/SkeletonLoader/SkeletonLoader';
 import { EmptyState } from '../../components/ui/EmptyState';
 import { ErrorState } from '../../components/ui/ErrorState';
+import { SEO } from '../../components/SEO';
+import { FAQSchema, BreadcrumbSchema } from '../../components/StructuredData';
+import { PAGE_META } from '../../utils/seoConfig';
 
 export const Services = () => {
   const { t } = useTranslation();
@@ -58,6 +61,26 @@ export const Services = () => {
 
   return (
     <div>
+      <SEO
+        title={PAGE_META.services.title}
+        description={PAGE_META.services.description}
+        keywords={PAGE_META.services.keywords}
+        canonical="https://greenshieldhomesolutions.com/services"
+      />
+      <FAQSchema
+        faqs={[
+          { q: t('servicesPage.faq1Q'), a: t('servicesPage.faq1A') },
+          { q: t('servicesPage.faq2Q'), a: t('servicesPage.faq2A') },
+          { q: t('servicesPage.faq3Q'), a: t('servicesPage.faq3A') },
+        ]}
+      />
+      <BreadcrumbSchema
+        items={[
+          { label: t('nav.home'), url: '/' },
+          { label: t('nav.services'), url: '/services' },
+        ]}
+      />
+
       {/* Header */}
       <section className="relative overflow-hidden pb-8 pt-6 text-center sm:pb-10">
         <div className=" pointer-events-none absolute inset-0" />

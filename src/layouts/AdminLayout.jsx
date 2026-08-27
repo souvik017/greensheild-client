@@ -54,7 +54,7 @@ export const AdminLayout = () => {
         <div className="relative flex h-20 items-center justify-between border-b border-border/60 px-6">
           <div className="flex items-center gap-3">
             <div className="relative h-11 w-11 shrink-0 overflow-hidden rounded-2xl shadow-lg shadow-primary-500/25">
-              <img src="/logo.jpeg" alt="GreenShield" className="h-full w-full object-cover" />
+              <img src="/logo.png" alt="GreenShield" className="h-full w-full object-cover" />
               <span className="absolute -inset-1 -z-10 rounded-2xl bg-primary-500/40 blur-lg" />
             </div>
             <div>

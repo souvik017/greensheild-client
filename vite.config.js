@@ -7,7 +7,9 @@ export default defineConfig(({ mode }) => {
   const apiTarget = env.VITE_API_URL || 'https://greensheild-server.onrender.com/api/';
 
   return {
-    plugins: [react()],
+    plugins: [
+      react(),
+    ],
     resolve: {
       alias: {
         '@': fileURLToPath(new URL('./src', import.meta.url)),
@@ -23,6 +25,24 @@ export default defineConfig(({ mode }) => {
           rewrite: (path) => (apiTarget.endsWith('/api') ? path.replace(/^\/api/, '') : path),
         },
       },
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            vendor: ['react', 'react-dom'],
+            ui: ['framer-motion', 'lucide-react'],
+            charts: ['recharts'],
+          },
+        },
+      },
+      assetsInclude: ['**/.png', '**/.jpg', '**/.jpeg', '**/.gif', '**/.webp', '**/.svg'],
+    },
+    css: {
+      devSourcemap: mode === 'development',
+    },
+    define: {
+      __APP_VERSION__: JSON.stringify(env.VITE_APP_VERSION || '1.0.0'),
     },
   };
 });

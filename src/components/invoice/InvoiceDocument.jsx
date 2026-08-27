@@ -1,6 +1,6 @@
 import { Document, Page, Text, View, Image, StyleSheet } from '@react-pdf/renderer';
 import { format } from 'date-fns';
-import logo from '../../../assets/logo.jpeg';
+import logo from '../../../assets/logo.png';
 
 const COLORS = {
   primary: '#1F7A3D',

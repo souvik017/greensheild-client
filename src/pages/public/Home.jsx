@@ -26,6 +26,9 @@ import { SearchBar } from '../../components/SearchBar/SearchBar';
 import { ServiceCard } from '../../components/ServiceCard/ServiceCard';
 import { StatsStrip } from '../../components/StatsStrip/StatsStrip';
 import { getServices } from '../../services/api/services';
+import { SEO } from '../../components/SEO';
+import { LocalBusinessSchema, WebSiteSchema, FAQSchema } from '../../components/StructuredData';
+import { PAGE_META } from '../../utils/seoConfig';
 import heroImage from '../../../assets/hero.png';
 
 const POPULAR_SLUGS = [

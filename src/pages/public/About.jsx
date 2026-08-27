@@ -2,6 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { ShieldCheck, Sparkles, Users, Clock3, MapPinned, HeartHandshake } from 'lucide-react';
 import { STATS_DATA } from '../../utils/constants';
+import { SEO } from '../../components/SEO';
+import { LocalBusinessSchema, BreadcrumbSchema } from '../../components/StructuredData';
+import { PAGE_META } from '../../utils/seoConfig';
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },

@@ -38,7 +38,7 @@ export const PublicLayout = () => {
         <div className="wrap flex h-16 items-center justify-between gap-4 sm:h-20">
           <Link to="/" className="group flex min-w-0 flex-1 items-center gap-2.5 sm:gap-3">
             <div className="h-10 w-10 shrink-0 overflow-hidden transition-transform duration-300 group-hover:scale-105">
-              <img src="/logo.jpeg" alt="GreenShield" className="h-full w-full object-obtain" />
+              <img src="/logo.png" alt="GreenShield" className="h-full w-full object-obtain" />
             </div>
             <div className="hidden min-w-0 sm:block">
               <p className="truncate font-display text-lg font-bold leading-none tracking-tight">GreenShield</p>
@@ -117,7 +117,7 @@ export const PublicLayout = () => {
             >
               <div className="mb-8 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <img src="/logo.jpeg" alt="GreenShield" className="h-10 w-10 object-obtain" />
+                  <img src="/logo.png" alt="GreenShield" className="h-10 w-10 object-obtain" />
                   <div>
                     <p className="font-display text-lg font-semibold text-gradient-brand">GreenShield</p>
                     <p className="text-xs text-text-muted">{t('layout.menu')}</p>
@@ -175,7 +175,7 @@ export const PublicLayout = () => {
           <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr]">
             <div>
               <div className="flex items-center gap-3">
-                <img src="/logo.jpeg" alt="GreenShield" className="h-10 w-10 object-obtain" />
+                <img src="/logo.png" alt="GreenShield" className="h-10 w-10 object-obtain" />
                 <div>
                   <p className="font-display text-lg font-bold leading-none tracking-tight">GreenShield</p>
                   <p className="mt-1 text-sm text-text-muted">{t('layout.footerTagline')}</p>
@@ -213,11 +213,11 @@ export const PublicLayout = () => {
               <p className="eyebrow">{t('layout.contact')}</p>
               <div className="flex flex-col items-start gap-2.5">
                 <a
-                  href="tel:+917685806236"
+                  href="tel:+918282050022"
                   className="inline-flex items-center gap-2 text-text-secondary transition-colors hover:text-primary-700"
                 >
                   <Phone className="h-4 w-4 text-primary-700" />
-                  +91 76858 06236
+                  +91 8282050022
                 </a>
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=greenshieldhomesolutio%40gmail.com"

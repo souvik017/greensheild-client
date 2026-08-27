@@ -1,0 +1,23 @@
+# Robots.txt for GreenShield Home Solutions
+# Allow crawling of public pages, block admin routes
+
+User-agent: *
+Allow: /
+Allow: /services
+Allow: /services/*
+Allow: /about
+Allow: /contact
+Allow: /services-in
+Allow: /services-in/*
+
+# Block admin pages from indexing
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /admin/login
+
+# Block API endpoints
+Disallow: /api
+Disallow: /api/*
+
+# Sitemap location
+Sitemap: https://greenshieldhomesolutions.in/sitemap.xml

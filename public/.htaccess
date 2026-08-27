@@ -18,7 +18,7 @@ RewriteBase /
 # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # ---------------------------------------------------------------------------
-# Serve existing files/folders directly (hashed assets, /logo.jpeg, etc.)
+# Serve existing files/folders directly (hashed assets, /logo.png, etc.)
 # ---------------------------------------------------------------------------
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d

@@ -58,7 +58,7 @@ export const AdminLogin = () => {
 
           <div className="relative">
             <div className="relative inline-flex h-14 w-14 items-center justify-center overflow-hidden">
-              <img src="/logo.jpeg" alt="GreenShield" className="h-full w-full object-cover" />
+              <img src="/logo.png" alt="GreenShield" className="h-full w-full object-cover" />
               <span className="absolute -inset-1 -z-10 rounded-2xl bg-emerald-400/40 blur-lg" />
             </div>
             <h1 className="mt-6 font-display text-4xl font-bold tracking-tight">
@@ -76,7 +76,7 @@ export const AdminLogin = () => {
         <div className="p-8 md:p-10">
           <div className="mb-8">
             <div className="mb-6 inline-flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-primary-500/15 to-cyan-400/15 lg:hidden">
-              <img src="/logo.jpeg" alt="GreenShield" className="h-full w-full object-cover" />
+              <img src="/logo.png" alt="GreenShield" className="h-full w-full object-cover" />
             </div>
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-text-muted">{t('admin.welcomeBack')}</p>
             <h2 className="mt-3 font-display text-3xl font-bold text-text-primary">{t('admin.login')}</h2>
